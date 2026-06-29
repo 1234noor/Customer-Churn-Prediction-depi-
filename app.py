@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-model = pickle.load(open(r'C:\Users\Noor\Downloads\customer_churn.sav', 'rb'))
-scaler = pickle.load(open(r'C:\Users\Noor\Downloads\scaler.sav', 'rb'))
+model = pickle.load(open("customer_churn.sav", "rb"))
+scaler = pickle.load(open("scaler.sav", "rb"))
 
 
 st.set_page_config(page_title="Customer Churn Prediction")
